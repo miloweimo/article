@@ -1,5 +1,3 @@
-# article
-article
+# [Article](https://miloweimo.github.io/article/)
 
-[hello](./hello.md)
-
+some articles
