@@ -1,0 +1,82 @@
+:root {
+  --active-color: #79acff;
+  --text-color: #dddddd;
+  --background-color: #333;
+  --card-background-color: #777777ad;
+}
+
+/* 文字 */
+.darkmode a.navbar-item,
+.darkmode .title,
+.darkmode .content,
+.darkmode .content>h1,
+.darkmode .content>h2,
+.darkmode .content>h3,
+.darkmode .content>h4,
+.darkmode .content>h5,
+.darkmode .content>h6,
+.darkmode .content>p,
+.darkmode .level
+{
+  color: var(--text-color);
+}
+
+
+/* 导航栏 */
+.darkmode nav,
+.darkmode .navbar-menu
+{
+  background-color: var(--background-color);
+}
+/* 激活项目 */
+.darkmode a.is-active
+{
+  color: var(--active-color);
+  background-color: var(--card-background-color);
+}
+/* 悬浮 */
+.darkmode a.navbar-item:hover,
+.darkmode a.level:hover
+{
+  background-color: var(--card-background-color);
+}
+
+/* body 背景 */
+.darkmode
+{
+  background-color: var(--card-background-color);
+}
+
+/* 文章 卡片 */
+.darkmode .card-content,
+.darkmode .box
+{
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* 时间线白条 */
+.darkmode .timeline .media:last-child:after
+{
+  background: transparent;
+}
+
+/* link-muted */
+.darkmode .link-muted
+{
+  color: var(--text-color);
+}
+
+/* back-to-top */
+.darkmode #back-to-top
+{
+  background-color: #0807077d;
+  color: var(--text-color);
+}
+
+/* footer */
+.darkmode footer
+{
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
