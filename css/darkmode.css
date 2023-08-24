@@ -4,10 +4,14 @@
   --background-color: #333;
   --card-background-color: #777777ad;
 }
-
+.darkmode .title
+{
+  color: unset !important;
+}
 /* 文字 */
 .darkmode a.navbar-item,
-.darkmode .title,
+/* .darkmode .title, */
+.darkmode .article>h1,
 .darkmode .content,
 .darkmode .content>h1,
 .darkmode .content>h2,
@@ -36,8 +40,9 @@
 }
 /* 悬浮 */
 .darkmode a.navbar-item:hover,
-.darkmode a.level:hover
+.darkmode a:hover
 {
+  color: var(--active-color);
   background-color: var(--card-background-color);
 }
 
