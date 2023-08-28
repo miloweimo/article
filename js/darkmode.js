@@ -12,10 +12,16 @@
 
   // darkmode 初始化读取
   var darkmode = localStorage.getItem('darkmode');
-  // darkmode 没有 初始化为 false
+  // darkmode 没有 初始化
   if (darkmode === null) {
-    darkmode = false;
-    localStorage.setItem('darkmode', darkmode);
+    // 07:00 - 19:00 之间 darkmode 为 'false'
+    if (new Date().getHours() >= 7 && new Date().getHours() <= 19) {
+      darkmode = false;
+      localStorage.setItem('darkmode', darkmode);
+    } else {
+      darkmode = true;
+      localStorage.setItem('darkmode', darkmode);
+    }
     return;
   }
   // darkmode 为 'true' 则添加 class darkmode
