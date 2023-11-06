@@ -47,8 +47,16 @@ function darkmode() {
   // 设置body的 class
   if (darkmode) {
     document.body.classList.add('darkmode');
+    /* 修改 class="navbar-item navbar-logo"下的第一个img的src地址 */
+    document.getElementsByClassName('navbar-logo')[0].querySelector('img').src = 'https://cdn.jsdelivr.net/gh/miloweimo/blogimage/cat_white.png';
+    document.getElementsByClassName('footer-logo')[0].querySelector('img').src = 'https://cdn.jsdelivr.net/gh/miloweimo/blogimage/cat_white.png';
+    /* 修改 class="avatar"下的img的src地址 */
+    document.getElementsByClassName('avatar')[0].src = 'https://cdn.jsdelivr.net/gh/miloweimo/blogimage/avatar_white.png';
   } else {
     document.body.classList.remove('darkmode');
+    document.getElementsByClassName('navbar-logo')[0].querySelector('img').src = 'https://cdn.jsdelivr.net/gh/miloweimo/blogimage/cat_black.png';
+    document.getElementsByClassName('footer-logo')[0].querySelector('img').src = 'https://cdn.jsdelivr.net/gh/miloweimo/blogimage/cat_black.png';
+    document.getElementsByClassName('avatar')[0].src = 'https://cdn.jsdelivr.net/gh/miloweimo/blogimage/avatar_black.png';
   }
 };
 
