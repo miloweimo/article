@@ -8,32 +8,37 @@
   navbarMenu.removeAttribute('target');
   navbarMenu.removeAttribute('href');
   // 给navbarMenu <a> 添加属性 onclick
-  navbarMenu.setAttribute('onclick', 'darkmode()');
-
-  // darkmode 初始化读取
-  var darkmode = localStorage.getItem('darkmode');
-  // darkmode 没有 初始化
-  if (darkmode === null) {
-    // 07:00 - 19:00 之间 darkmode 为 'false'
-    if (new Date().getHours() >= 7 && new Date().getHours() <= 19) {
-      darkmode = false;
-      localStorage.setItem('darkmode', darkmode);
-    } else {
-      darkmode = true;
-      localStorage.setItem('darkmode', darkmode);
-    }
-    return;
+  navbarMenu.setAttribute('onclick', 'toggleDarkmode()');
+  // 初始化状态
+  var isLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+  if (isLight) {
+    document.body.classList.remove('darkmode');
+    localStorage.setItem('darkmode', 'false');
   }
-  // darkmode 为 'true' 则添加 class darkmode
-  if (darkmode === 'true') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  if (isDarkMode) {
     document.body.classList.add('darkmode');
+    localStorage.setItem('darkmode', 'true');
   }
+  // 添加黑暗模式切换的事件监听
+  // listenable-like object [`MediaQueryList`]
+  var mqList = window.matchMedia('(prefers-color-scheme: dark)');
+
+  mqList.addEventListener('change', (event) => {
+    if (event.matches) {
+      document.body.classList.add('darkmode');
+      localStorage.setItem('darkmode', 'true');
+    } else {
+      document.body.classList.remove('darkmode');
+      localStorage.setItem('darkmode', 'false');
+    }
+  });
 })();
 
 // 切换 darkmode 状态
-function darkmode() {
-  // 读取localStorage的 darkmode 状态 'true' 或 'false'
-  var darkmode = localStorage.getItem('darkmode');
+function toggleDarkmode() {
+  // 读取localStorage的 darkmode 状态
+  var darkmode = localStorage.getItem('darkmode'); // 'true' 或 'false'
   // 如果 darkmode 是 'false' 则设置为 'true'
   if (darkmode === 'false') {
     darkmode = true;
