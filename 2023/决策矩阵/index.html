@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="zh"><head><!-- hexo injector head_begin start --><link rel="stylesheet" href="/article/css/darkmode.css"></link><!-- hexo injector head_begin end --><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>决策矩阵 - ネф̶ イω</title><link rel="manifest" href="/article/manifest.json"><meta name="application-name" content="ネф̶ イω"><meta name="msapplication-TileImage" content="https://cdn.jsdelivr.net/gh/miloweimo/blogimage/favicon_ma.ico"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="ネф̶ イω"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="Decision matrix 决策矩阵 通过考虑多种因素选择最佳选择"><meta property="og:type" content="blog"><meta property="og:title" content="决策矩阵"><meta property="og:url" content="https://miloweimo.github.io/article/2023/%E5%86%B3%E7%AD%96%E7%9F%A9%E9%98%B5/"><meta property="og:site_name" content="ネф̶ イω"><meta property="og:description" content="Decision matrix 决策矩阵 通过考虑多种因素选择最佳选择"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="https://miloweimo.github.io/article/img/og_image.png"><meta property="article:published_time" content="2023-04-18T03:39:00.000Z"><meta property="article:modified_time" content="2023-11-20T07:35:16.676Z"><meta property="article:author" content="Wei Mo"><meta property="article:tag" content="转载"><meta property="article:tag" content="life"><meta property="article:tag" content="思考工具"><meta property="article:tag" content="决策"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="https://miloweimo.github.io/article/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://miloweimo.github.io/article/2023/%E5%86%B3%E7%AD%96%E7%9F%A9%E9%98%B5/"},"headline":"决策矩阵","image":["https://miloweimo.github.io/article/img/og_image.png"],"datePublished":"2023-04-18T03:39:00.000Z","dateModified":"2023-11-20T07:35:16.676Z","author":{"@type":"Person","name":"Wei Mo"},"publisher":{"@type":"Organization","name":"ネф̶ イω","logo":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/miloweimo/blogimage/cat_black.png"}},"description":"Decision matrix 决策矩阵 通过考虑多种因素选择最佳选择"}</script><link rel="canonical" href="https://miloweimo.github.io/article/2023/%E5%86%B3%E7%AD%96%E7%9F%A9%E9%98%B5/"><link rel="alternate" href="/article/atom.xml" title="ネф̶ イω" type="application/atom+xml"><link rel="icon" href="https://cdn.jsdelivr.net/gh/miloweimo/blogimage/favicon_ma.ico"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-dark.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/article/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"><!--!--><!--!--><style>.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#3273dc;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}</style><script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js"></script><!--!--><!--!--><!-- hexo injector head_end start --><script>
+  (function () {
+      function switchTab() {
+          if (!location.hash) {
+            return;
+          }
+
+          const id = '#' + CSS.escape(location.hash.substring(1));
+          const $tabMenu = document.querySelector(`.tabs a[href="${id}"]`);
+          if (!$tabMenu) {
+            return;
+          }
+
+          const $tabMenuContainer = $tabMenu.parentElement.parentElement;
+          Array.from($tabMenuContainer.children).forEach($menu => $menu.classList.remove('is-active'));
+          Array.from($tabMenuContainer.querySelectorAll('a'))
+              .map($menu => document.getElementById($menu.getAttribute("href").substring(1)))
+              .forEach($content => $content.classList.add('is-hidden'));
+
+          if ($tabMenu) {
+              $tabMenu.parentElement.classList.add('is-active');
+          }
+          const $activeTab = document.querySelector(id);
+          if ($activeTab) {
+              $activeTab.classList.remove('is-hidden');
+          }
+      }
+      switchTab();
+      window.addEventListener('hashchange', switchTab, false);
+  })();
+  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/article/"><img src="https://cdn.jsdelivr.net/gh/miloweimo/blogimage/cat_black.png" alt="ネф̶ イω" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/article/">🏠博客</a><a class="navbar-item" href="/article/archives">👨‍👩‍👧‍👦目录</a><a class="navbar-item" href="/article/categories">🐱分类</a><a class="navbar-item" href="/article/tags">🐶标签</a><a class="navbar-item" href="/article/about">🌌关于</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="切换亮色" href="javascript:;"><i class="fa-solid fa-circle-half-stroke"></i></a><a class="navbar-item is-hidden-tablet catalogue" title="目录" href="javascript:;"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="搜索" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2023-04-18T03:39:00.000Z" title="2023/4/18 11:39:00">2023-04-18</time>发表</span><span class="level-item"><time dateTime="2023-11-20T07:35:16.676Z" title="2023/11/20 15:35:16">2023-11-20</time>更新</span><span class="level-item"><a class="link-muted" href="/article/categories/life/">life</a></span><span class="level-item">8 分钟读完 (大约1154个字)</span></div></div><h1 class="title is-3 is-size-4-mobile">决策矩阵</h1><div class="content"><p>Decision matrix 决策矩阵</p>
+<p>通过考虑多种因素选择最佳选择</p>
+<span id="more"></span>
+
+<p>有些决定可能很难做出。尤其是当有更多因素影响它们的时候。决策矩阵是一种工具，可帮助您在做出决策时考虑所有重要因素。</p>
+<p>它使流程更加清晰。</p>
+<p>当您有多个选项并且需要根据许多不同因素在它们之间做出决定时，它最有用。</p>
+<h2 id="如何使用它"><a href="#如何使用它" class="headerlink" title="如何使用它"></a>如何使用它</h2><p>决策矩阵基本上是一个简单的表格，其中包含您的选择和决定因素。目标是根据每个选项的因素得分计算每个选项的得分。分数将帮助您做出决定。</p>
+<p>以下是逐步创建决策矩阵的方法：</p>
+<ol>
+<li>写下你需要做出的决定（decision）</li>
+<li>列出您拥有的选项（options）</li>
+<li>确定您要考虑的因素（factors）</li>
+<li>对每个因素的选项进行评分（score）</li>
+<li>增加因素的权重（weight）</li>
+<li>计算选项的分数——将每个分数乘以因素权重，然后将它们相加。（calculate）</li>
+<li>选择你的赢家——得分最高的选项（pick）</li>
+</ol>
+<p>让我们看看这在实践中是如何工作的。</p>
+<h2 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h2><p>假设您领导着一个设计团队，您想要决定团队<strong>使用哪种设计工具</strong>。您已经做了一些研究，并将您的选择范围缩小到三个：Sketch、Figma 和 Framer。让我们将它们放入您的决策矩阵表中。</p>
+<table>
+<thead>
+<tr>
+<th><strong>因素</strong></th>
+<th>待定</th>
+<th>待定</th>
+<th>待定</th>
+<th><strong>分数</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>权重</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Sketch</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Figma</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Framer</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>现在让我们看看您需要考虑的因素。您对工具有固定的预算，因此成本将是首要因素。在与您的团队讨论后，您同意工具的原型制作和协作功能对他们来说最为重要。现在你有了影响决定的因素。</p>
+<table>
+<thead>
+<tr>
+<th><strong>因素</strong></th>
+<th>成本</th>
+<th>原型制作</th>
+<th>合作</th>
+<th><strong>分数</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>权重</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Sketch</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Figma</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Framer</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<p>是时候根据每个因素对每个选项进行评分了。让我们使用 1 到 5 的等级（其中 1 是最差的，5 是最好的），但您可以使用您喜欢的任何等级。</p>
+<p><strong>成本</strong>——你会发现 Figma 和 Framer 的成本都是 12 美元&#x2F;编辑器&#x2F;月，而 Sketch 则便宜一点，为 9 美元。您将分别给它们打 3 分和 4 分。</p>
+<p><strong>原型制作</strong>——Framer 是原型制作中最强大的。Figma 和 Sketch 有点相似，但是 Figma 可以做得更多一点。Framer 获得 5 分，Figma 获得 3 分，Sketch 获得 2 分。</p>
+<p><strong>协作</strong>——你让你的团队评估这个。他们一致认为 Figma 最适合协作，给它打了 5 分。Sketch 和 Framer 都得了 3 分。</p>
+<p>让我们看看这些在您的决策矩阵中是什么样子的：</p>
+<table>
+<thead>
+<tr>
+<th><strong>因素</strong></th>
+<th>成本</th>
+<th>原型制作</th>
+<th>合作</th>
+<th><strong>分数</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>权重</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Sketch</td>
+<td>4</td>
+<td>2</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr>
+<td>Figma</td>
+<td>3</td>
+<td>3</td>
+<td>5</td>
+<td></td>
+</tr>
+<tr>
+<td>Framer</td>
+<td>3</td>
+<td>5</td>
+<td>3</td>
+<td></td>
+</tr>
+</tbody></table>
+<p>在这一点上，决定可能会更清晰一些，但并非所有因素都同等重要。您需要为它们增加权重。由于您的预算已经确定，因此成本因素是最重要的，使其成为 5。您的团队表示，原型制作对他们来说比协作功能更重要。您相应地权衡这些因素：</p>
+<table>
+<thead>
+<tr>
+<th><strong>因素</strong></th>
+<th>成本</th>
+<th>原型制作</th>
+<th>合作</th>
+<th><strong>分数</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>权重</strong></td>
+<td>5</td>
+<td>4</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr>
+<td>Sketch</td>
+<td>4</td>
+<td>2</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr>
+<td>Figma</td>
+<td>3</td>
+<td>3</td>
+<td>5</td>
+<td></td>
+</tr>
+<tr>
+<td>Framer</td>
+<td>3</td>
+<td>5</td>
+<td>3</td>
+<td></td>
+</tr>
+</tbody></table>
+<p>下一步是将分数乘以每个因素的权重。每个因素的分数加起来就是每个选项的最终分数：</p>
+<table>
+<thead>
+<tr>
+<th><strong>因素</strong></th>
+<th>成本</th>
+<th>原型制作</th>
+<th>合作</th>
+<th><strong>分数</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>权重</strong></td>
+<td>5</td>
+<td>4</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr>
+<td>Sketch</td>
+<td>4*5 &#x3D; 20</td>
+<td>2*4 &#x3D; 8</td>
+<td>3*3 &#x3D; 9</td>
+<td><strong>37</strong></td>
+</tr>
+<tr>
+<td>Figma</td>
+<td>3*5 &#x3D; 15</td>
+<td>3*4 &#x3D; 12</td>
+<td>5*3 &#x3D; 15</td>
+<td><strong>42</strong></td>
+</tr>
+<tr>
+<td>Framer</td>
+<td>3*5 &#x3D; 15</td>
+<td>5*4 &#x3D; 20</td>
+<td>3*3 &#x3D; 9</td>
+<td><strong>44</strong></td>
+</tr>
+</tbody></table>
+<p>你有它。根据对您重要的因素，您可以为每个选项打分。在这种情况下，Framer 胜出。</p>
+<p>对于这种情况，决策矩阵是一个非常有用的工具。当有多个因素需要考虑时，此工具可消除您决策中的不确定性和主观性。它可以让你清楚地找出做出哪个决定是最合理的。</p>
+<h2 id="决策矩阵的应用程序"><a href="#决策矩阵的应用程序" class="headerlink" title="决策矩阵的应用程序"></a>决策矩阵的应用程序</h2><p>如果您想尝试使用此工具，我建议您使用名为<a target="_blank" rel="noopener" href="https://www.ruminate.io/">Ruminate</a>的应用程序。它提供了创建决策矩阵所需的一切，并为您进行所有计算。</p>
+<h3 id="来源"><a href="#来源" class="headerlink" title="来源"></a>来源</h3><p><a target="_blank" rel="noopener" href="https://toggl.com/blog/decision-matrix">Toggl 博客上的“决策矩阵”</a></p>
+<p><a target="_blank" rel="noopener" href="https://untools.co/decision-matrix">原文 Decision matrix</a></p>
+</div><div class="article-licensing box"><div class="licensing-title"><p>决策矩阵</p><p><a href="https://miloweimo.github.io/article/2023/决策矩阵/">https://miloweimo.github.io/article/2023/决策矩阵/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>作者</h6><p>Wei Mo</p></div></div><div class="level-item is-narrow"><div><h6>发布于</h6><p>2023-04-18</p></div></div><div class="level-item is-narrow"><div><h6>更新于</h6><p>2023-11-20</p></div></div><div class="level-item is-narrow"><div><h6>许可协议</h6><p><a class="icons" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="icon fab fa-creative-commons"></i></a><a class="icons" rel="noopener" target="_blank" title="Attribution" href="https://creativecommons.org/licenses/by/4.0/"><i class="icon fab fa-creative-commons-by"></i></a><a class="icons" rel="noopener" target="_blank" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="icon fab fa-creative-commons-nc"></i></a></p></div></div></div></div></div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/article/tags/%E8%BD%AC%E8%BD%BD/">转载</a><a class="link-muted mr-2" rel="tag" href="/article/tags/life/">life</a><a class="link-muted mr-2" rel="tag" href="/article/tags/%E6%80%9D%E8%80%83%E5%B7%A5%E5%85%B7/">思考工具</a><a class="link-muted mr-2" rel="tag" href="/article/tags/%E5%86%B3%E7%AD%96/">决策</a></div><!--!--></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/article/2023/nb/"><i class="level-item fas fa-chevron-left"></i><span class="level-item">nb</span></a></div><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/article/2023/raspberrypi-autostart-open-browser-and-full-screen/"><span class="level-item">树莓派启动自动全屏打开指定网址</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><!--!--></div><div class="column column-left is-4-tablet is-4-desktop is-3-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="https://cdn.jsdelivr.net/gh/miloweimo/blogimage/avatar_black.png" alt="Wei Mo"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">Wei Mo</p><p class="is-size-6 is-block">🍌香蕉纹身师 🍜食物贴纸收藏家</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>Earth</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">文章</p><a href="/article/archives"><p class="title">13</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">分类</p><a href="/article/categories"><p class="title">3</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">标签</p><a href="/article/tags"><p class="title">21</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/miloweimo" target="_blank" rel="noopener">关注我</a></div><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Email" href="mailto:miloweimo@outlook.com"><i class="fas fa-envelope"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/miloweimo"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="LinkedIn" href="https://www.linkedin.com/in/wei-mo-0b0b0b1a3/"><i class="fab fa-linkedin"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Bilibili" href="https://space.bilibili.com/3295611"><i class="fab fa-bilibili"></i></a></div></div></div><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">链接</h3><ul class="menu-list"><li><a class="level is-mobile" href="https://miloweimo.github.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">哈哈沃德主页</span></span><span class="level-right"><span class="level-item tag">miloweimo.github.io</span></span></a></li><li><a class="level is-mobile" href="https://miloweimo.github.io/article/" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">博客</span></span><span class="level-right"><span class="level-item tag">miloweimo.github.io</span></span></a></li><li><a class="level is-mobile" href="https://miloweimo.github.io/tools/#/" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">网页工具</span></span><span class="level-right"><span class="level-item tag">miloweimo.github.io</span></span></a></li><li><a class="level is-mobile" href="https://miloweimo.github.io/demo/#/" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Demo</span></span><span class="level-right"><span class="level-item tag">miloweimo.github.io</span></span></a></li><li><a class="level is-mobile" href="https://miloweimo.github.io/demo2/#/" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Demo2</span></span><span class="level-right"><span class="level-item tag">miloweimo.github.io</span></span></a></li></ul></div></div></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">分类</h3><ul class="menu-list"><li><a class="level is-mobile" href="/article/categories/life/"><span class="level-start"><span class="level-item">life</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/article/categories/%E6%8A%80%E6%9C%AF/"><span class="level-start"><span class="level-item">技术</span></span><span class="level-end"><span class="level-item tag">7</span></span></a></li><li><a class="level is-mobile" href="/article/categories/%E6%B8%B8%E6%88%8F/"><span class="level-start"><span class="level-item">游戏</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></div></div></div><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">最新文章</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="9998-12-31T16:00:00.000Z">9999-01-01</time></p><p class="title"><a href="/article/9999/hello/">hello</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-11-20T07:13:34.000Z">2023-11-20</time></p><p class="title"><a href="/article/2023/%E4%BD%BF%E7%94%A8GitHub%E4%BB%93%E5%BA%93%E4%BD%9C%E4%B8%BA%E5%9B%BE%E5%BA%8A/">使用GitHub仓库作为图床</a></p><p class="categories"><a href="/article/categories/%E6%8A%80%E6%9C%AF/">技术</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-11-14T05:56:41.000Z">2023-11-14</time></p><p class="title"><a href="/article/2023/%E5%8D%9A%E5%AE%A2%E7%B3%BB%E7%BB%9F2023/">博客系统2023</a></p><p class="categories"><a href="/article/categories/%E6%8A%80%E6%9C%AF/">技术</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-08-24T03:41:17.000Z">2023-08-24</time></p><p class="title"><a href="/article/2023/icarus%E4%B8%BB%E9%A2%985-2-1%E6%B7%BB%E5%8A%A0%E9%BB%91%E6%9A%97%E6%A8%A1%E5%BC%8F/">icarus主题5.2.1添加黑暗模式</a></p><p class="categories"><a href="/article/categories/%E6%8A%80%E6%9C%AF/">技术</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-08-17T03:43:10.000Z">2023-08-17</time></p><p class="title"><a href="/article/2023/linux-zip-unzip/">linux zip unzip</a></p><p class="categories"><a href="/article/categories/%E6%8A%80%E6%9C%AF/">技术</a></p></div></article></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">标签</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/article/tags/csgo/"><span class="tag">csgo</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/article/tags/dpkg/"><span class="tag">dpkg</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/article/tags/error/"><span class="tag">error</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/article/tags/git/"><span class="tag">git</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/article/tags/github/"><span class="tag">github</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/article/tags/hexo/"><span class="tag">hexo</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/article/tags/life/"><span class="tag">life</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/article/tags/linux/"><span class="tag">linux</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/article/tags/package/"><span class="tag">package</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/article/tags/ubuntu/"><span class="tag">ubuntu</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/article/tags/unzip/"><span class="tag">unzip</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/article/tags/zip/"><span class="tag">zip</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/article/tags/%E4%B8%BB%E9%A2%98/"><span class="tag">主题</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/article/tags/%E5%86%B3%E7%AD%96/"><span class="tag">决策</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/article/tags/%E5%8D%9A%E5%AE%A2/"><span class="tag">博客</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/article/tags/%E5%9B%BE%E5%BA%8A/"><span class="tag">图床</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/article/tags/%E6%80%9D%E8%80%83%E5%B7%A5%E5%85%B7/"><span class="tag">思考工具</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/article/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"><span class="tag">树莓派</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/article/tags/%E8%84%91%E6%B4%9E/"><span class="tag">脑洞</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/article/tags/%E8%A7%82%E7%82%B9/"><span class="tag">观点</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/article/tags/%E8%BD%AC%E8%BD%BD/"><span class="tag">转载</span><span class="tag">2</span></a></div></div></div></div></div><div class="column-right-shadow is-hidden-widescreen is-sticky"></div></div><div class="column column-right is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only order-3 is-sticky"><div class="card widget" id="toc" data-type="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">目录</h3><ul class="menu-list"><li><a class="level is-mobile" href="#如何使用它"><span class="level-left"><span class="level-item">1</span><span class="level-item">如何使用它</span></span></a></li><li><a class="level is-mobile" href="#实例"><span class="level-left"><span class="level-item">2</span><span class="level-item">实例</span></span></a></li><li><a class="level is-mobile" href="#决策矩阵的应用程序"><span class="level-left"><span class="level-item">3</span><span class="level-item">决策矩阵的应用程序</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#来源"><span class="level-left"><span class="level-item">3.1</span><span class="level-item">来源</span></span></a></li></ul></li></ul></div></div><style>#toc .menu-list > li > a.is-active + .menu-list { display: block; }#toc .menu-list > li > a + .menu-list { display: none; }</style><script src="/article/js/toc.js" defer></script></div></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/article/"><img src="https://cdn.jsdelivr.net/gh/miloweimo/blogimage/cat_black.png" alt="ネф̶ イω" height="28"></a><p class="is-size-7"><span>&copy; 2023 Wei Mo</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p><p class="is-size-7">© 2333 copy copy</p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Open My GitHub" href="https://github.com/miloweimo"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("zh-cn");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/article/js/column.js"></script><script src="/article/js/animation.js"></script><a id="back-to-top" title="回到顶端" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/article/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "此网站使用Cookie来改善您的体验。",
+          dismiss: "知道了！",
+          allow: "允许使用Cookie",
+          deny: "拒绝",
+          link: "了解更多",
+          policy: "Cookie政策",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><script src="/article/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="想要查找什么..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/article/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/article/content.json"}, {"hint":"想要查找什么...","untitled":"(无标题)","posts":"文章","pages":"页面","categories":"分类","tags":"标签"});
+        });</script><!-- hexo injector body_end start --><script src="/article/js/darkmode.js"></script><!-- hexo injector body_end end --></body></html>
