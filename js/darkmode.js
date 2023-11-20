@@ -13,12 +13,13 @@
   var isLight = window.matchMedia('(prefers-color-scheme: light)').matches;
   if (isLight) {
     document.body.classList.remove('darkmode');
-    localStorage.setItem('darkmode', 'false');
+    localStorage.setItem('darkmode', false);
+    setDarkmode(false);
   }
   var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
   if (isDarkMode) {
-    document.body.classList.add('darkmode');
-    localStorage.setItem('darkmode', 'true');
+    localStorage.setItem('darkmode', true);
+    setDarkmode(true);
   }
   // 添加黑暗模式切换的事件监听
   // listenable-like object [`MediaQueryList`]
@@ -26,11 +27,11 @@
 
   mqList.addEventListener('change', (event) => {
     if (event.matches) {
-      document.body.classList.add('darkmode');
-      localStorage.setItem('darkmode', 'true');
+      localStorage.setItem('darkmode', true);
+      setDarkmode(true);
     } else {
-      document.body.classList.remove('darkmode');
-      localStorage.setItem('darkmode', 'false');
+      localStorage.setItem('darkmode', false);
+      setDarkmode(false);
     }
   });
 })();
@@ -49,6 +50,10 @@ function toggleDarkmode() {
     darkmode = false;
     localStorage.setItem('darkmode', darkmode);
   }
+  setDarkmode(darkmode);
+};
+
+function setDarkmode(darkmode) {
   // 设置body的 class
   if (darkmode) {
     document.body.classList.add('darkmode');
