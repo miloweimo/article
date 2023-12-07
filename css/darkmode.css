@@ -9,18 +9,19 @@
   color: unset !important;
 }
 /* 文字 */
-.darkmode a.navbar-item,
+.darkmode h1,
+.darkmode h2,
+.darkmode h3,
+.darkmode h4,
+.darkmode h5,
+.darkmode h6,
+.darkmode p,
+.darkmode strong,
+.darkmode a
 /* .darkmode .title, */
-.darkmode .article>h1,
+/* .darkmode a.navbar-item,
 .darkmode .content,
-.darkmode .content>h1,
-.darkmode .content>h2,
-.darkmode .content>h3,
-.darkmode .content>h4,
-.darkmode .content>h5,
-.darkmode .content>h6,
-.darkmode .content>p,
-.darkmode .level
+.darkmode .level */
 {
   color: var(--text-color);
 }
