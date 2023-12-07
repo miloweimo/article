@@ -17,7 +17,12 @@
 .darkmode h6,
 .darkmode p,
 .darkmode strong,
-.darkmode a
+.darkmode .content h1,
+.darkmode .content h2,
+.darkmode .content h3,
+.darkmode .content h4,
+.darkmode .content h5,
+.darkmode .content h6
 /* .darkmode .title, */
 /* .darkmode a.navbar-item,
 .darkmode .content,
