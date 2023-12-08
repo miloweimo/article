@@ -31,7 +31,16 @@
 {
   color: var(--text-color);
 }
-
+/* 链接右侧标题颜色 */
+.darkmode .level-item.tag
+{
+  color: unset;
+}
+/* 链接悬浮背景颜色 */
+.darkmode .menu-list a:hover
+{
+  background-color: var(--card-background-color);
+}
 /* 引用文字背景 */
 .darkmode .content blockquote
 {
@@ -51,11 +60,14 @@
   background-color: var(--card-background-color);
 }
 /* 链接鼠标悬浮 */
+.darkmode a:hover,
 .darkmode a.navbar-item:hover,
-.darkmode a:hover
+.darkmode .menu-list a:hover
+/* 重置最新文章链接悬浮 */
+.darkmode article.media a:hover
 {
   color: var(--active-color);
-  background-color: var(--card-background-color);
+  background-color: var(--card-background-color) !important;
 }
 
 /* body 背景 */
