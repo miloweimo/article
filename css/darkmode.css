@@ -4,11 +4,11 @@
   --background-color: #333;
   --card-background-color: #777777ad;
 }
-.darkmode .title
+/* .darkmode .title
 {
   color: unset !important;
-}
-/* 文字 */
+} */
+/* 文字和标题 */
 .darkmode h1,
 .darkmode h2,
 .darkmode h3,
@@ -22,22 +22,23 @@
 .darkmode .content h3,
 .darkmode .content h4,
 .darkmode .content h5,
-.darkmode .content h6
-/* .darkmode .title, */
-/* .darkmode a.navbar-item,
-.darkmode .content,
-.darkmode .level */
+.darkmode .content h6,
+/* 链接标题 */
+.darkmode .level-item,
+/* 导航标题 */
+.darkmode .navbar-item
+/* .darkmode .title */
 {
   color: var(--text-color);
 }
 
-/* 引用文字 */
+/* 引用文字背景 */
 .darkmode .content blockquote
 {
   background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
-/* 导航栏 */
+/* 导航栏背景 */
 .darkmode nav,
 .darkmode .navbar-menu
 {
@@ -49,7 +50,7 @@
   color: var(--active-color);
   background-color: var(--card-background-color);
 }
-/* 悬浮 */
+/* 链接鼠标悬浮 */
 .darkmode a.navbar-item:hover,
 .darkmode a:hover
 {
@@ -63,7 +64,7 @@
   background-color: var(--card-background-color);
 }
 
-/* 文章 卡片 */
+/* 文章背景 */
 .darkmode .card-content,
 .darkmode .box
 {
