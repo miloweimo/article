@@ -3,6 +3,7 @@
   --text-color: #dddddd;
   --background-color: #333;
   --card-background-color: #777777ad;
+  --more-dark: #0000004d;
 }
 /* .darkmode .title
 {
@@ -44,7 +45,7 @@
 /* 引用文字背景 */
 .darkmode .content blockquote
 {
-  background-color: rgba(0, 0, 0, 0.3) !important;
+  background-color: var(--more-dark);
 }
 
 /* 导航栏背景 */
@@ -77,11 +78,16 @@
 }
 
 /* 文章背景 */
-.darkmode .card-content,
-.darkmode .box
+.darkmode .card-content
 {
   background-color: var(--background-color);
   color: var(--text-color);
+}
+/* liscens 背景 */
+.darkmode .article-licensing.box
+{
+  color: unset;
+  background-color: var(--more-dark);
 }
 
 /* 时间线白条 */
