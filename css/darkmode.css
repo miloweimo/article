@@ -27,8 +27,8 @@
 /* 链接标题 */
 .darkmode .level-item,
 /* 导航标题 */
-.darkmode .navbar-item
-/* .darkmode .title */
+.darkmode .navbar-item,
+.darkmode .title
 {
   color: var(--text-color);
 }
@@ -63,7 +63,8 @@
 /* 链接鼠标悬浮 */
 .darkmode a:hover,
 .darkmode a.navbar-item:hover,
-.darkmode .menu-list a:hover
+.darkmode .menu-list a:hover,
+.darkmode .menu-list a.is-active,
 /* 重置最新文章链接悬浮 */
 .darkmode article.media a:hover
 {
