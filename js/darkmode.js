@@ -57,6 +57,8 @@ function setDarkmode(darkmode) {
   // 设置body的 class
   if (darkmode) {
     document.body.classList.add('darkmode');
+    // body style="color-scheme: dark"
+    // document.body.setAttribute('style', 'color-scheme: dark;');
     /* 修改 class="navbar-item navbar-logo"下的第一个img的src地址 */
     document.getElementsByClassName('navbar-logo')[0].querySelector('img').src = 'https://cdn.jsdelivr.net/gh/miloweimo/blogimage/cat_white.png';
     document.getElementsByClassName('footer-logo')[0].querySelector('img').src = 'https://cdn.jsdelivr.net/gh/miloweimo/blogimage/cat_white.png';
@@ -64,6 +66,8 @@ function setDarkmode(darkmode) {
     document.getElementsByClassName('avatar')[0].src = 'https://cdn.jsdelivr.net/gh/miloweimo/blogimage/avatar_white.png';
   } else {
     document.body.classList.remove('darkmode');
+    // body style="color-scheme: light"
+    // document.body.setAttribute('style', 'color-scheme: light;');
     document.getElementsByClassName('navbar-logo')[0].querySelector('img').src = 'https://cdn.jsdelivr.net/gh/miloweimo/blogimage/cat_black.png';
     document.getElementsByClassName('footer-logo')[0].querySelector('img').src = 'https://cdn.jsdelivr.net/gh/miloweimo/blogimage/cat_black.png';
     document.getElementsByClassName('avatar')[0].src = 'https://cdn.jsdelivr.net/gh/miloweimo/blogimage/avatar_black.png';
