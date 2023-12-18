@@ -1,0 +1,12 @@
+:root {
+  --active-color: #79acff;
+  --text-color: #dddddd;
+  --background-color: #333;
+  --card-background-color: #777777ad;
+  --more-dark: #0000004d;
+}
+
+/* 修复 函数文字 颜色 */
+.title.function_ {
+  color: unset;
+}
