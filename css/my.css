@@ -7,6 +7,8 @@
 }
 
 /* 修复 函数文字 颜色 */
-.title.function_ {
-  color: unset;
+.title.function_,
+.title
+{
+  color: unset !important;
 }
