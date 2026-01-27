@@ -1,0 +1,118 @@
+:root {
+  --active-color: #79acff;
+  --text-color: #dddddd;
+  --background-color: #333;
+  --card-background-color: #777777ad;
+  --more-dark: #0000004d;
+}
+/* .darkmode .title
+{
+  color: unset !important;
+} */
+/* 文字和标题 */
+.darkmode h1,
+.darkmode h2,
+.darkmode h3,
+.darkmode h4,
+.darkmode h5,
+.darkmode h6,
+.darkmode p,
+.darkmode strong,
+.darkmode .content h1,
+.darkmode .content h2,
+.darkmode .content h3,
+.darkmode .content h4,
+.darkmode .content h5,
+.darkmode .content h6,
+/* 链接标题 */
+.darkmode .level-item,
+/* 导航标题 */
+.darkmode .navbar-item,
+.darkmode .title
+{
+  color: var(--text-color);
+}
+/* 链接右侧标题颜色 */
+.darkmode .level-item.tag
+{
+  color: unset;
+}
+/* 链接悬浮背景颜色 */
+.darkmode .menu-list a:hover
+{
+  background-color: var(--card-background-color);
+}
+/* 引用文字背景 */
+.darkmode .content blockquote
+{
+  background-color: var(--more-dark);
+}
+
+/* 导航栏背景 */
+.darkmode nav,
+.darkmode .navbar-menu
+{
+  background-color: var(--background-color);
+}
+/* 激活项目 */
+.darkmode a.is-active
+{
+  color: var(--active-color);
+  background-color: var(--card-background-color);
+}
+/* 链接鼠标悬浮 */
+.darkmode a:hover,
+.darkmode a.navbar-item:hover,
+.darkmode .menu-list a:hover,
+.darkmode .menu-list a.is-active,
+/* 重置最新文章链接悬浮 */
+.darkmode article.media a:hover
+{
+  color: var(--active-color);
+  background-color: var(--card-background-color) !important;
+}
+
+/* body 背景 */
+.darkmode
+{
+  background-color: var(--card-background-color);
+}
+
+/* 文章背景 */
+.darkmode .card-content
+{
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+/* liscens 背景 */
+.darkmode .article-licensing.box
+{
+  color: unset;
+  background-color: var(--more-dark);
+}
+
+/* 时间线白条 */
+.darkmode .timeline .media:last-child:after
+{
+  background: transparent;
+}
+
+/* link-muted */
+.darkmode .link-muted
+{
+  color: var(--text-color);
+}
+
+/* back-to-top */
+.darkmode #back-to-top
+{
+  background-color: #0807077d;
+  color: var(--text-color);
+}
+
+/* footer */
+.darkmode footer
+{
+  background-color: var(--background-color);
+  color: var(--text-color);
+}

@@ -1,0 +1,81 @@
+(function(){
+  // 找到元素 .navbar-end 第一个子元素
+  var navbarEnd = document.getElementsByClassName('navbar-end');
+  // if (navbarEnd.length === 0) { return; }
+  var navbarMenu = navbarEnd[0].firstElementChild;
+  // if (navbarMenu === null) { return; }
+  // 给navbarMenu <a> 删除属性 target 和 href
+  navbarMenu.removeAttribute('target');
+  navbarMenu.removeAttribute('href');
+  // 给navbarMenu <a> 添加属性 onclick
+  navbarMenu.setAttribute('onclick', 'toggleDarkmode()');
+  // 初始化状态
+  // var isLight = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  // console.log(isLight, 'isLight');
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  var darkmode = localStorage.getItem('darkmode'); // 'true' 或 'false'
+
+  console.log(isDarkMode, 'system isDarkMode', darkmode, 'darkmode');
+
+  if ((darkmode === 'true') || !darkmode && isDarkMode) {
+    localStorage.setItem('darkmode', true);
+    setDarkmode(true);
+  }
+  if ((!darkmode && !isDarkMode) || darkmode === 'false') {
+    localStorage.setItem('darkmode', false);
+    setDarkmode(false);
+  }
+
+  // 添加黑暗模式切换的事件监听
+  // listenable-like object [`MediaQueryList`]
+  var mqList = window.matchMedia('(prefers-color-scheme: dark)');
+
+  mqList.addEventListener('change', (event) => {
+    if (event.matches) {
+      localStorage.setItem('darkmode', true);
+      setDarkmode(true);
+    } else {
+      localStorage.setItem('darkmode', false);
+      setDarkmode(false);
+    }
+  });
+})();
+
+// 切换 darkmode 状态
+function toggleDarkmode() {
+  // 读取localStorage的 darkmode 状态
+  var darkmode = localStorage.getItem('darkmode'); // 'true' 或 'false'
+  // 如果 darkmode 是 'false' 则设置为 'true'
+  if (darkmode === 'false') {
+    darkmode = true;
+    localStorage.setItem('darkmode', 'true');
+  }
+  // 如果 darkmode 是 'true' 则设置为 'false'
+  else {
+    darkmode = false;
+    localStorage.setItem('darkmode', 'false');
+  }
+  setDarkmode(darkmode);
+};
+
+function setDarkmode(darkmode) {
+  // 设置body的 class
+  if (darkmode) {
+    document.body.classList.add('darkmode');
+    // body style="color-scheme: dark"
+    // document.body.setAttribute('style', 'color-scheme: dark;');
+    /* 修改 class="navbar-item navbar-logo"下的第一个img的src地址 */
+    document.getElementsByClassName('navbar-logo')[0].querySelector('img').src = 'https://cdn.jsdelivr.net/gh/miloweimo/blogimage/cat_white.png';
+    document.getElementsByClassName('footer-logo')[0].querySelector('img').src = 'https://cdn.jsdelivr.net/gh/miloweimo/blogimage/cat_white.png';
+    /* 修改 class="avatar"下的img的src地址 */
+    document.getElementsByClassName('avatar')[0].src = 'https://cdn.jsdelivr.net/gh/miloweimo/blogimage/avatar_white.png';
+  } else {
+    document.body.classList.remove('darkmode');
+    // body style="color-scheme: light"
+    // document.body.setAttribute('style', 'color-scheme: light;');
+    document.getElementsByClassName('navbar-logo')[0].querySelector('img').src = 'https://cdn.jsdelivr.net/gh/miloweimo/blogimage/cat_black.png';
+    document.getElementsByClassName('footer-logo')[0].querySelector('img').src = 'https://cdn.jsdelivr.net/gh/miloweimo/blogimage/cat_black.png';
+    document.getElementsByClassName('avatar')[0].src = 'https://cdn.jsdelivr.net/gh/miloweimo/blogimage/avatar_black.png';
+  }
+};
+
