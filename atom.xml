@@ -38,6 +38,22 @@
   </entry>
   
   <entry>
+    <title>copy2DVD</title>
+    <link href="https://miloweimo.github.io/article/copy2DVD/"/>
+    <id>https://miloweimo.github.io/article/copy2DVD/</id>
+    <published>2026-04-08T07:03:29.000Z</published>
+    <updated>2026-04-08T07:16:46.556Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Linux 服务器写入DVD的脚本&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# 使用方法&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;copy2DVD.sh /path/to/source&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# 新的DVD加参数1&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;copy2DVD.sh /path/to/source 1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>个人向零食红黑榜</title>
     <link href="https://miloweimo.github.io/article/%E9%9B%B6%E9%A3%9F/"/>
     <id>https://miloweimo.github.io/article/%E9%9B%B6%E9%A3%9F/</id>
@@ -247,9 +263,9 @@
     <category term="技术" scheme="https://miloweimo.github.io/article/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="windows" scheme="https://miloweimo.github.io/article/tags/windows/"/>
-    
     <category term="docker" scheme="https://miloweimo.github.io/article/tags/docker/"/>
+    
+    <category term="windows" scheme="https://miloweimo.github.io/article/tags/windows/"/>
     
   </entry>
   
