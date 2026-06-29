@@ -38,6 +38,58 @@
   </entry>
   
   <entry>
+    <title>Arch Linux + Windows 双系统启动配置</title>
+    <link href="https://miloweimo.github.io/article/archlinux_windows_dule_system_boot/"/>
+    <id>https://miloweimo.github.io/article/archlinux_windows_dule_system_boot/</id>
+    <published>2026-06-28T16:00:00.000Z</published>
+    <updated>2026-06-29T08:05:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;有2块硬盘分别安装了，Arch Linux和Windows。希望启动时可以选择进入的系统。BIOS顺序是先启动 Arch Linux 的盘，Arch Linux 的 GRUB 里可以选择进入 Windows。&lt;/p&gt;
+&lt;p&gt;所以要解决 Arch Linux 怎么启动识别另一块Windows盘：&lt;/p&gt;
+&lt;p&gt;使用&lt;code&gt;os-prober&lt;/code&gt;来识别自动发现系统，写入 grub.cfg；GRUB 菜单多一个Windows Boot Manager&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术" scheme="https://miloweimo.github.io/article/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="多系统" scheme="https://miloweimo.github.io/article/tags/%E5%A4%9A%E7%B3%BB%E7%BB%9F/"/>
+    
+    <category term="双系统" scheme="https://miloweimo.github.io/article/tags/%E5%8F%8C%E7%B3%BB%E7%BB%9F/"/>
+    
+    <category term="grub" scheme="https://miloweimo.github.io/article/tags/grub/"/>
+    
+    <category term="启动配置" scheme="https://miloweimo.github.io/article/tags/%E5%90%AF%E5%8A%A8%E9%85%8D%E7%BD%AE/"/>
+    
+    <category term="bios" scheme="https://miloweimo.github.io/article/tags/bios/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>个人向零食红黑榜</title>
+    <link href="https://miloweimo.github.io/article/%E9%9B%B6%E9%A3%9F/"/>
+    <id>https://miloweimo.github.io/article/%E9%9B%B6%E9%A3%9F/</id>
+    <published>2025-11-23T16:00:00.000Z</published>
+    <updated>2026-06-20T03:32:05.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;2026-06-20 11:32:05&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="life" scheme="https://miloweimo.github.io/article/categories/life/"/>
+    
+    
+    <category term="买" scheme="https://miloweimo.github.io/article/tags/%E4%B9%B0/"/>
+    
+    <category term="零食" scheme="https://miloweimo.github.io/article/tags/%E9%9B%B6%E9%A3%9F/"/>
+    
+    <category term="吃" scheme="https://miloweimo.github.io/article/tags/%E5%90%83/"/>
+    
+  </entry>
+  
+  <entry>
     <title>一日出门checklist</title>
     <link href="https://miloweimo.github.io/article/%E4%B8%80%E6%97%A5%E5%87%BA%E9%97%A8checklist/"/>
     <id>https://miloweimo.github.io/article/%E4%B8%80%E6%97%A5%E5%87%BA%E9%97%A8checklist/</id>
@@ -59,34 +111,11 @@
   </entry>
   
   <entry>
-    <title>个人向零食红黑榜</title>
-    <link href="https://miloweimo.github.io/article/%E9%9B%B6%E9%A3%9F/"/>
-    <id>https://miloweimo.github.io/article/%E9%9B%B6%E9%A3%9F/</id>
-    <published>2025-11-23T16:00:00.000Z</published>
-    <updated>2026-05-19T16:00:00.000Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;2026-05-20&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="life" scheme="https://miloweimo.github.io/article/categories/life/"/>
-    
-    
-    <category term="买" scheme="https://miloweimo.github.io/article/tags/%E4%B9%B0/"/>
-    
-    <category term="零食" scheme="https://miloweimo.github.io/article/tags/%E9%9B%B6%E9%A3%9F/"/>
-    
-    <category term="吃" scheme="https://miloweimo.github.io/article/tags/%E5%90%83/"/>
-    
-  </entry>
-  
-  <entry>
     <title>copy2DVD</title>
     <link href="https://miloweimo.github.io/article/copy2DVD/"/>
     <id>https://miloweimo.github.io/article/copy2DVD/</id>
-    <published>2026-04-08T07:03:29.000Z</published>
-    <updated>2026-04-08T07:42:03.251Z</updated>
+    <published>2026-04-07T16:00:00.000Z</published>
+    <updated>2026-04-07T16:00:00.000Z</updated>
     
     
     <summary type="html">&lt;p&gt;Linux 服务器写入DVD的脚本&lt;/p&gt;
@@ -113,7 +142,8 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;安装Windows系统时跳过联网验证-1&quot;&gt;&lt;a href=&quot;#安装Windows系统时跳过联网验证-1&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;一些注意事项&quot;&gt;&lt;a href=&quot;#一些注意事项&quot; class=&quot;headerlink&quot; title=&quot;一些注意事项&quot;&gt;&lt;/a&gt;一些注意事项&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;老旧主板有的不识别USB3.0的U盘，进 BIOS 打开 XHCI、关闭快速启动、打开传统</summary>
         
       
     
