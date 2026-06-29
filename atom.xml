@@ -64,6 +64,10 @@
     
     <category term="bios" scheme="https://miloweimo.github.io/article/tags/bios/"/>
     
+    <category term="archlinux" scheme="https://miloweimo.github.io/article/tags/archlinux/"/>
+    
+    <category term="windows" scheme="https://miloweimo.github.io/article/tags/windows/"/>
+    
   </entry>
   
   <entry>
@@ -216,6 +220,30 @@
   </entry>
   
   <entry>
+    <title>小丑牌种子收集</title>
+    <link href="https://miloweimo.github.io/article/balatro_seeds/"/>
+    <id>https://miloweimo.github.io/article/balatro_seeds/</id>
+    <published>2025-11-30T16:00:00.000Z</published>
+    <updated>2025-11-30T16:00:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;小丑牌种子收集&lt;/p&gt;
+&lt;p&gt;个人通关思路 前期至少拿一个经济牌 经济上来后叠倍率牌、最好是成长倍率、升级牌组 后期保证牌组纯洁性&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="游戏" scheme="https://miloweimo.github.io/article/categories/%E6%B8%B8%E6%88%8F/"/>
+    
+    
+    <category term="小丑牌" scheme="https://miloweimo.github.io/article/tags/%E5%B0%8F%E4%B8%91%E7%89%8C/"/>
+    
+    <category term="游戏" scheme="https://miloweimo.github.io/article/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+    <category term="种子" scheme="https://miloweimo.github.io/article/tags/%E7%A7%8D%E5%AD%90/"/>
+    
+  </entry>
+  
+  <entry>
     <title>修改console.log前面加上时间戳</title>
     <link href="https://miloweimo.github.io/article/%E4%BF%AE%E6%94%B9console.log%E5%89%8D%E9%9D%A2%E5%8A%A0%E4%B8%8A%E6%97%B6%E9%97%B4%E6%88%B3/"/>
     <id>https://miloweimo.github.io/article/%E4%BF%AE%E6%94%B9console.log%E5%89%8D%E9%9D%A2%E5%8A%A0%E4%B8%8A%E6%97%B6%E9%97%B4%E6%88%B3/</id>
@@ -291,11 +319,11 @@
     <category term="技术" scheme="https://miloweimo.github.io/article/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
+    <category term="windows" scheme="https://miloweimo.github.io/article/tags/windows/"/>
+    
     <category term="ubuntu" scheme="https://miloweimo.github.io/article/tags/ubuntu/"/>
     
     <category term="linux" scheme="https://miloweimo.github.io/article/tags/linux/"/>
-    
-    <category term="windows" scheme="https://miloweimo.github.io/article/tags/windows/"/>
     
     <category term="mac" scheme="https://miloweimo.github.io/article/tags/mac/"/>
     
@@ -318,9 +346,9 @@
     <category term="技术" scheme="https://miloweimo.github.io/article/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="docker" scheme="https://miloweimo.github.io/article/tags/docker/"/>
-    
     <category term="windows" scheme="https://miloweimo.github.io/article/tags/windows/"/>
+    
+    <category term="docker" scheme="https://miloweimo.github.io/article/tags/docker/"/>
     
   </entry>
   
@@ -999,9 +1027,9 @@
   </entry>
   
   <entry>
-    <title>初始化一个node项目</title>
-    <link href="https://miloweimo.github.io/article/%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%80%E4%B8%AAnode%E9%A1%B9%E7%9B%AE/"/>
-    <id>https://miloweimo.github.io/article/%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%80%E4%B8%AAnode%E9%A1%B9%E7%9B%AE/</id>
+    <title>初始化一个nodejs(ts)项目</title>
+    <link href="https://miloweimo.github.io/article/%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%80%E4%B8%AAnodejs(ts)%E9%A1%B9%E7%9B%AE/"/>
+    <id>https://miloweimo.github.io/article/%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%80%E4%B8%AAnodejs(ts)%E9%A1%B9%E7%9B%AE/</id>
     <published>2024-03-05T07:50:04.000Z</published>
     <updated>2024-03-05T07:50:04.000Z</updated>
     
@@ -1201,30 +1229,6 @@
     <category term="同步" scheme="https://miloweimo.github.io/article/tags/%E5%90%8C%E6%AD%A5/"/>
     
     <category term="文件" scheme="https://miloweimo.github.io/article/tags/%E6%96%87%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>json-server 模拟接口</title>
-    <link href="https://miloweimo.github.io/article/json-server-%E6%A8%A1%E6%8B%9F%E6%8E%A5%E5%8F%A3/"/>
-    <id>https://miloweimo.github.io/article/json-server-%E6%A8%A1%E6%8B%9F%E6%8E%A5%E5%8F%A3/</id>
-    <published>2023-12-18T09:08:29.000Z</published>
-    <updated>2023-12-18T09:08:29.000Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;使用 &lt;a href=&quot;https://github.com/typicode/JSON-Server&quot;&gt;json-server&lt;/a&gt; 在JS项目模拟RESTful API&lt;/p&gt;
-&lt;p&gt;支持 GET POST PUT DELETE PATCH…&lt;br&gt;支持 查询、分页、排序、模糊查询、操作符…&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="技术" scheme="https://miloweimo.github.io/article/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="js" scheme="https://miloweimo.github.io/article/tags/js/"/>
-    
-    <category term="npm" scheme="https://miloweimo.github.io/article/tags/npm/"/>
-    
-    <category term="mock api" scheme="https://miloweimo.github.io/article/tags/mock-api/"/>
     
   </entry>
   
@@ -1979,8 +1983,8 @@
   
   <entry>
     <title>初始化一个node项目</title>
-    <link href="https://miloweimo.github.io/article/%E5%88%9D%E5%A7%8B%E5%8C%96nodejs%E9%A1%B9%E7%9B%AE/"/>
-    <id>https://miloweimo.github.io/article/%E5%88%9D%E5%A7%8B%E5%8C%96nodejs%E9%A1%B9%E7%9B%AE/</id>
+    <link href="https://miloweimo.github.io/article/%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%80%E4%B8%AAnodejs%E9%A1%B9%E7%9B%AE/"/>
+    <id>https://miloweimo.github.io/article/%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%80%E4%B8%AAnodejs%E9%A1%B9%E7%9B%AE/</id>
     <published>2019-09-15T16:00:00.000Z</published>
     <updated>2019-09-15T16:00:00.000Z</updated>
     
