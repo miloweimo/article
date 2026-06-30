@@ -38,6 +38,31 @@
   </entry>
   
   <entry>
+    <title>什么样的svg前端可以改颜色</title>
+    <link href="https://miloweimo.github.io/article/%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84svg%E5%89%8D%E7%AB%AF%E5%8F%AF%E4%BB%A5%E6%94%B9%E9%A2%9C%E8%89%B2/"/>
+    <id>https://miloweimo.github.io/article/%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84svg%E5%89%8D%E7%AB%AF%E5%8F%AF%E4%BB%A5%E6%94%B9%E9%A2%9C%E8%89%B2/</id>
+    <published>2026-06-30T01:52:22.000Z</published>
+    <updated>2026-06-30T01:52:22.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;其实前端&lt;strong&gt;不是所有 SVG 都能改颜色&lt;/strong&gt;，关键看 SVG 是怎么画的。&lt;/p&gt;
+&lt;h2 id=&quot;最推荐&quot;&gt;&lt;a href=&quot;#最推荐&quot; class=&quot;headerlink&quot; title=&quot;最推荐&quot;&gt;&lt;/a&gt;最推荐&lt;/h2&gt;&lt;p&gt;使用 **&lt;code&gt;currentColor&lt;/code&gt;**。&lt;/p&gt;
+&lt;figure class=&quot;highlight xml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;svg&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;viewBox&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;0 0 24 24&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;path&lt;/span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;    &lt;span class=&quot;attr&quot;&gt;fill&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;currentColor&amp;quot;&lt;/span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;    &lt;span class=&quot;attr&quot;&gt;d&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&amp;quot;...&amp;quot;&lt;/span&gt;  &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;  /&amp;gt;&lt;/span&gt;  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;svg&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="技术" scheme="https://miloweimo.github.io/article/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="前端" scheme="https://miloweimo.github.io/article/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="svg" scheme="https://miloweimo.github.io/article/tags/svg/"/>
+    
+    <category term="chatgpt" scheme="https://miloweimo.github.io/article/tags/chatgpt/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Arch Linux + Windows 双系统启动配置</title>
     <link href="https://miloweimo.github.io/article/archlinux_windows_dule_system_boot/"/>
     <id>https://miloweimo.github.io/article/archlinux_windows_dule_system_boot/</id>
