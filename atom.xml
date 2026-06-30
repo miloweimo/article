@@ -267,6 +267,32 @@
   </entry>
   
   <entry>
+    <title>Office全家桶安装并激活</title>
+    <link href="https://miloweimo.github.io/article/office_setup_2025/"/>
+    <id>https://miloweimo.github.io/article/office_setup_2025/</id>
+    <published>2025-02-11T08:20:34.000Z</published>
+    <updated>2025-12-08T02:00:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;基本上去这个网站找就好了 &lt;a href=&quot;https://massgrave.dev/&quot;&gt;https://massgrave.dev/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;对应仓库 &lt;a href=&quot;https://github.com/massgravel/Microsoft-Activation-Scripts&quot;&gt;https://github.com/massgravel/Microsoft-Activation-Scripts&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;对于Windows&quot;&gt;&lt;a href=&quot;#对于Windows&quot; class=&quot;headerlink&quot; title=&quot;对于Windows&quot;&gt;&lt;/a&gt;对于Windows&lt;/h2&gt;&lt;h3 id=&quot;激活Windows系统-和-Office&quot;&gt;&lt;a href=&quot;#激活Windows系统-和-Office&quot; class=&quot;headerlink&quot; title=&quot;激活Windows系统 和 Office&quot;&gt;&lt;/a&gt;激活Windows系统 和 Office&lt;/h3&gt;&lt;p&gt;不管是激活Windows系统还是Office都可以一行cmd代码搞定&lt;/p&gt;
+&lt;figure class=&quot;highlight powershell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;irm&lt;/span&gt; https://get.activated.win | &lt;span class=&quot;built_in&quot;&gt;iex&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="技术" scheme="https://miloweimo.github.io/article/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="windows" scheme="https://miloweimo.github.io/article/tags/windows/"/>
+    
+    <category term="office" scheme="https://miloweimo.github.io/article/tags/office/"/>
+    
+    <category term="mac" scheme="https://miloweimo.github.io/article/tags/mac/"/>
+    
+  </entry>
+  
+  <entry>
     <title>小丑牌种子收集</title>
     <link href="https://miloweimo.github.io/article/balatro_seeds/"/>
     <id>https://miloweimo.github.io/article/balatro_seeds/</id>
