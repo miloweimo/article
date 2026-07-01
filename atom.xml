@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>𝐵𝑙𝑜𝑔 | 小钻风𝑇𝑜𝑟𝑛𝑎𝑑𝑜</title>
   <icon>https://miloweimo.github.io/article/icon.png</icon>
-  <subtitle>没什么技术的日常分享</subtitle>
+  <subtitle>技术日常分享 | 技术分享,游戏,开发,编程,生活,随笔,日常,日志,博客,文章,做菜</subtitle>
   <link href="https://miloweimo.github.io/article/atom.xml" rel="self"/>
   
   <link href="https://miloweimo.github.io/article/"/>
@@ -34,6 +34,28 @@
     
     
     
+    
+  </entry>
+  
+  <entry>
+    <title>podman换源2026</title>
+    <link href="https://miloweimo.github.io/article/podman%E6%8D%A2%E6%BA%902026/"/>
+    <id>https://miloweimo.github.io/article/podman%E6%8D%A2%E6%BA%902026/</id>
+    <published>2026-06-30T09:10:20.000Z</published>
+    <updated>2026-06-30T09:10:20.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;Podman 国内加速（镜像拉取）配置方法&lt;/strong&gt;（2026 年最新推荐）&lt;/p&gt;
+&lt;p&gt;国内访问 Docker Hub 很慢，主要通过&lt;strong&gt;配置镜像加速源（Mirror）&lt;/strong&gt;解决。Podman 的配置方式和 Docker 不一样，用的是 &lt;code&gt;/etc/containers/registries.conf&lt;/code&gt; 文件。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术" scheme="https://miloweimo.github.io/article/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="转载" scheme="https://miloweimo.github.io/article/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+    <category term="tag" scheme="https://miloweimo.github.io/article/tags/tag/"/>
     
   </entry>
   
