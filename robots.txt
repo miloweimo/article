@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://miloweimo.github.io/article/sitemap.xml
