@@ -1538,11 +1538,11 @@
     <category term="技术" scheme="https://miloweimo.github.io/article/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
+    <category term="init" scheme="https://miloweimo.github.io/article/tags/init/"/>
+    
     <category term="ubuntu" scheme="https://miloweimo.github.io/article/tags/ubuntu/"/>
     
     <category term="fallocate" scheme="https://miloweimo.github.io/article/tags/fallocate/"/>
-    
-    <category term="init" scheme="https://miloweimo.github.io/article/tags/init/"/>
     
   </entry>
   
@@ -1570,9 +1570,9 @@
     <category term="技术" scheme="https://miloweimo.github.io/article/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="ubuntu" scheme="https://miloweimo.github.io/article/tags/ubuntu/"/>
-    
     <category term="init" scheme="https://miloweimo.github.io/article/tags/init/"/>
+    
+    <category term="ubuntu" scheme="https://miloweimo.github.io/article/tags/ubuntu/"/>
     
     <category term="ssh" scheme="https://miloweimo.github.io/article/tags/ssh/"/>
     
