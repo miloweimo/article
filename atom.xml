@@ -38,6 +38,39 @@
   </entry>
   
   <entry>
+    <title>食材</title>
+    <link href="https://miloweimo.github.io/article/%E9%A3%9F%E6%9D%90/"/>
+    <id>https://miloweimo.github.io/article/%E9%A3%9F%E6%9D%90/</id>
+    <published>2026-07-02T03:11:45.000Z</published>
+    <updated>2026-07-02T03:11:45.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;收集好吃、优质的食材&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="life" scheme="https://miloweimo.github.io/article/categories/life/"/>
+    
+    <category term="吃喝" scheme="https://miloweimo.github.io/article/categories/life/%E5%90%83%E5%96%9D/"/>
+    
+    
+    <category term="life" scheme="https://miloweimo.github.io/article/tags/life/"/>
+    
+    <category term="做菜" scheme="https://miloweimo.github.io/article/tags/%E5%81%9A%E8%8F%9C/"/>
+    
+    <category term="方便菜" scheme="https://miloweimo.github.io/article/tags/%E6%96%B9%E4%BE%BF%E8%8F%9C/"/>
+    
+    <category term="罐头" scheme="https://miloweimo.github.io/article/tags/%E7%BD%90%E5%A4%B4/"/>
+    
+    <category term="冻干" scheme="https://miloweimo.github.io/article/tags/%E5%86%BB%E5%B9%B2/"/>
+    
+    <category term="干货" scheme="https://miloweimo.github.io/article/tags/%E5%B9%B2%E8%B4%A7/"/>
+    
+    <category term="食材" scheme="https://miloweimo.github.io/article/tags/%E9%A3%9F%E6%9D%90/"/>
+    
+  </entry>
+  
+  <entry>
     <title>podman换源2026</title>
     <link href="https://miloweimo.github.io/article/podman%E6%8D%A2%E6%BA%902026/"/>
     <id>https://miloweimo.github.io/article/podman%E6%8D%A2%E6%BA%902026/</id>
@@ -140,7 +173,7 @@
   </entry>
   
   <entry>
-    <title>个人向零食红黑榜</title>
+    <title>零食</title>
     <link href="https://miloweimo.github.io/article/%E9%9B%B6%E9%A3%9F/"/>
     <id>https://miloweimo.github.io/article/%E9%9B%B6%E9%A3%9F/</id>
     <published>2025-11-23T16:00:00.000Z</published>
@@ -152,6 +185,8 @@
     
     
     <category term="life" scheme="https://miloweimo.github.io/article/categories/life/"/>
+    
+    <category term="吃喝" scheme="https://miloweimo.github.io/article/categories/life/%E5%90%83%E5%96%9D/"/>
     
     
     <category term="买" scheme="https://miloweimo.github.io/article/tags/%E4%B9%B0/"/>
@@ -1830,6 +1865,8 @@
     
     
     <category term="life" scheme="https://miloweimo.github.io/article/categories/life/"/>
+    
+    <category term="吃喝" scheme="https://miloweimo.github.io/article/categories/life/%E5%90%83%E5%96%9D/"/>
     
     
     <category term="life" scheme="https://miloweimo.github.io/article/tags/life/"/>

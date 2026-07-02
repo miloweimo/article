@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://miloweimo.github.io/article/%E9%A3%9F%E6%9D%90/</loc>
+    
+    <lastmod>2026-07-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://miloweimo.github.io/article/podman%E6%8D%A2%E6%BA%902026/</loc>
     
     <lastmod>2026-06-30</lastmod>
@@ -724,7 +733,7 @@
 
   <url>
     <loc>https://miloweimo.github.io/article</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -734,21 +743,28 @@
   
   <url>
     <loc>https://miloweimo.github.io/article/categories/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://miloweimo.github.io/article/categories/life/</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://miloweimo.github.io/article/categories/%E6%B8%B8%E6%88%8F/</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-07-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://miloweimo.github.io/article/categories/life/%E5%90%83%E5%96%9D/</loc>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
