@@ -38,6 +38,39 @@
   </entry>
   
   <entry>
+    <title>ZeroOmega初始化设置</title>
+    <link href="https://miloweimo.github.io/article/ZeroOmegaInit/"/>
+    <id>https://miloweimo.github.io/article/ZeroOmegaInit/</id>
+    <published>2025-01-14T13:53:41.000Z</published>
+    <updated>2026-07-06T09:20:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;浏览器插件用来管理浏览器的proxy，用它clash就不需要开system proxy，防止影响其他应用。SwitchyOmega 停更了，改用 &lt;a href=&quot;https://github.com/zero-peak/ZeroOmega&quot;&gt;ZeroOmega&lt;/a&gt;。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术" scheme="https://miloweimo.github.io/article/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="翻墙" scheme="https://miloweimo.github.io/article/tags/%E7%BF%BB%E5%A2%99/"/>
+    
+    <category term="Google" scheme="https://miloweimo.github.io/article/tags/Google/"/>
+    
+    <category term="浏览器" scheme="https://miloweimo.github.io/article/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
+    
+    <category term="插件" scheme="https://miloweimo.github.io/article/tags/%E6%8F%92%E4%BB%B6/"/>
+    
+    <category term="firefox" scheme="https://miloweimo.github.io/article/tags/firefox/"/>
+    
+    <category term="proxy" scheme="https://miloweimo.github.io/article/tags/proxy/"/>
+    
+    <category term="SwitchyOmega" scheme="https://miloweimo.github.io/article/tags/SwitchyOmega/"/>
+    
+    <category term="ZeroOmega" scheme="https://miloweimo.github.io/article/tags/ZeroOmega/"/>
+    
+  </entry>
+  
+  <entry>
     <title>零食</title>
     <link href="https://miloweimo.github.io/article/%E9%9B%B6%E9%A3%9F/"/>
     <id>https://miloweimo.github.io/article/%E9%9B%B6%E9%A3%9F/</id>
@@ -535,32 +568,6 @@
     <category term="BEM" scheme="https://miloweimo.github.io/article/tags/BEM/"/>
     
     <category term="命名" scheme="https://miloweimo.github.io/article/tags/%E5%91%BD%E5%90%8D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SwitchyOmega初始化设置</title>
-    <link href="https://miloweimo.github.io/article/SwitchyOmegaInit/"/>
-    <id>https://miloweimo.github.io/article/SwitchyOmegaInit/</id>
-    <published>2025-01-14T13:53:41.000Z</published>
-    <updated>2025-01-14T13:53:41.000Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;浏览器插件，用来管理浏览器的proxy，用它就不需要开system proxy，防止影响其他应用&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;SwitchyOmega不更新了 不推荐 建议改用ZeroOmega&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-    
-    
-    
-    <category term="技术" scheme="https://miloweimo.github.io/article/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="翻墙" scheme="https://miloweimo.github.io/article/tags/%E7%BF%BB%E5%A2%99/"/>
-    
-    <category term="Google" scheme="https://miloweimo.github.io/article/tags/Google/"/>
-    
-    <category term="浏览器" scheme="https://miloweimo.github.io/article/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
     
   </entry>
   
@@ -1675,11 +1682,11 @@
     <category term="技术" scheme="https://miloweimo.github.io/article/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
+    <category term="web" scheme="https://miloweimo.github.io/article/tags/web/"/>
+    
     <category term="翻墙" scheme="https://miloweimo.github.io/article/tags/%E7%BF%BB%E5%A2%99/"/>
     
     <category term="浏览器" scheme="https://miloweimo.github.io/article/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
-    
-    <category term="web" scheme="https://miloweimo.github.io/article/tags/web/"/>
     
   </entry>
   

@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://miloweimo.github.io/article/ZeroOmegaInit/</loc>
+    
+    <lastmod>2026-07-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://miloweimo.github.io/article/%E9%9B%B6%E9%A3%9F/</loc>
     
     <lastmod>2026-07-02</lastmod>
@@ -185,15 +194,6 @@
     <loc>https://miloweimo.github.io/article/CSS-BEM/</loc>
     
     <lastmod>2025-01-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://miloweimo.github.io/article/SwitchyOmegaInit/</loc>
-    
-    <lastmod>2025-01-14</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
