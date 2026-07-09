@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://miloweimo.github.io/article/GBA%E5%9C%A3%E9%82%AA%E7%9A%84%E6%84%8F%E5%BF%97%E9%87%91%E6%89%8B%E6%8C%87/</loc>
-    
-    <lastmod>2026-07-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://miloweimo.github.io/article/kitty%E7%BB%88%E7%AB%AF/</loc>
     
     <lastmod>2026-07-09</lastmod>
@@ -725,6 +716,15 @@
     <loc>https://miloweimo.github.io/article/%E4%B8%80%E4%BD%8D%E8%80%81%E9%BB%91%E5%AE%A2%E5%85%B3%E4%BA%8E%E4%BF%9D%E4%BD%8F%E5%B7%A5%E4%BD%9C%E7%9A%84%E5%BB%BA%E8%AE%AEAn%20Old%20Hacker's%20Tips%20On%20Staying%20Employed/</loc>
     
     <lastmod>2021-08-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://miloweimo.github.io/article/GBA%E5%9C%A3%E9%82%AA%E7%9A%84%E6%84%8F%E5%BF%97%E9%87%91%E6%89%8B%E6%8C%87/</loc>
+    
+    <lastmod>2020-07-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

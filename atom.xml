@@ -38,38 +38,14 @@
   </entry>
   
   <entry>
-    <title>GBA圣邪的意志金手指</title>
-    <link href="https://miloweimo.github.io/article/GBA%E5%9C%A3%E9%82%AA%E7%9A%84%E6%84%8F%E5%BF%97%E9%87%91%E6%89%8B%E6%8C%87/"/>
-    <id>https://miloweimo.github.io/article/GBA%E5%9C%A3%E9%82%AA%E7%9A%84%E6%84%8F%E5%BF%97%E9%87%91%E6%89%8B%E6%8C%87/</id>
-    <published>2020-07-01T02:00:00.000Z</published>
-    <updated>2026-07-09T08:27:28.000Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;VBA格式的作弊码-XXXXXXXX-YYYY-转换为Code-Breaker-格式方法&quot;&gt;&lt;a href=&quot;#VBA格式的作弊码-XXXXXXXX-YYYY-转换为Code-Breaker-格式方法&quot; class=&quot;headerlink&quot; title=&quot;VBA格式的作弊码 XXXXXXXX:YYYY 转换为Code Breaker 格式方法&quot;&gt;&lt;/a&gt;VBA格式的作弊码 &lt;code&gt;XXXXXXXX:YYYY&lt;/code&gt; 转换为Code Breaker 格式方法&lt;/h2&gt;&lt;p&gt;第一位改为8 冒号换成空格&lt;br&gt;&lt;code&gt;XXXXXXXX:YY&lt;/code&gt; 冒号后面2位YY就补00~FF改为 &lt;code&gt;00YY&lt;/code&gt;  或者 &lt;code&gt;FFYY&lt;/code&gt; 的格式&lt;br&gt;转为Code Breaker格式就是 &lt;code&gt;8XXXXXXX YYYY&lt;/code&gt;&lt;br&gt;PS: 在大地图上操作比较方便&lt;/p&gt;
-&lt;h2 id=&quot;角色道具代码示例&quot;&gt;&lt;a href=&quot;#角色道具代码示例&quot; class=&quot;headerlink&quot; title=&quot;角色道具代码示例&quot;&gt;&lt;/a&gt;角色道具代码示例&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;给第一个角色道具 FF道具耐久256 04银剑&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8202BE66 FF04&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;给(1,2)角色道具 FF道具耐久256 01铁剑&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8202BEAF FF01&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;给1排3列角色道具栏1 无限使用的 波布罗的护符&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8202BEF7 FF7C&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;给1排3列角色道具栏2 无限使用的 菲力的护符（不推荐多栏修改可能影响第一栏道具&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8202BEF8 FF71&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
-    
-    
-    
-    <category term="游戏" scheme="https://miloweimo.github.io/article/categories/%E6%B8%B8%E6%88%8F/"/>
-    
-    
-    <category term="gba" scheme="https://miloweimo.github.io/article/tags/gba/"/>
-    
-    <category term="火焰之纹章" scheme="https://miloweimo.github.io/article/tags/%E7%81%AB%E7%84%B0%E4%B9%8B%E7%BA%B9%E7%AB%A0/"/>
-    
-    <category term="复古游戏" scheme="https://miloweimo.github.io/article/tags/%E5%A4%8D%E5%8F%A4%E6%B8%B8%E6%88%8F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>kitty终端</title>
     <link href="https://miloweimo.github.io/article/kitty%E7%BB%88%E7%AB%AF/"/>
     <id>https://miloweimo.github.io/article/kitty%E7%BB%88%E7%AB%AF/</id>
     <published>2026-07-09T06:06:14.000Z</published>
-    <updated>2026-07-09T06:06:14.000Z</updated>
+    <updated>2026-07-09T09:27:30.000Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;Kitty&quot;&gt;&lt;a href=&quot;#Kitty&quot; class=&quot;headerlink&quot; title=&quot;Kitty&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://sw.kovidgoyal.net/kitty/&quot;&gt;Kitty&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;优势：&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;Kitty终端&quot;&gt;&lt;a href=&quot;#Kitty终端&quot; class=&quot;headerlink&quot; title=&quot;Kitty终端&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://sw.kovidgoyal.net/kitty/&quot;&gt;Kitty&lt;/a&gt;终端&lt;/h2&gt;&lt;p&gt;优势：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;性能好&lt;/li&gt;
 &lt;li&gt;GitHub开源 &lt;a href=&quot;https://github.com/kovidgoyal/kitty&quot;&gt;kovidgoyal&amp;#x2F;kitty&lt;/a&gt;&lt;/li&gt;
@@ -2178,6 +2154,30 @@
     <category term="转载" scheme="https://miloweimo.github.io/article/tags/%E8%BD%AC%E8%BD%BD/"/>
     
     <category term="观点" scheme="https://miloweimo.github.io/article/tags/%E8%A7%82%E7%82%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GBA圣邪的意志金手指</title>
+    <link href="https://miloweimo.github.io/article/GBA%E5%9C%A3%E9%82%AA%E7%9A%84%E6%84%8F%E5%BF%97%E9%87%91%E6%89%8B%E6%8C%87/"/>
+    <id>https://miloweimo.github.io/article/GBA%E5%9C%A3%E9%82%AA%E7%9A%84%E6%84%8F%E5%BF%97%E9%87%91%E6%89%8B%E6%8C%87/</id>
+    <published>2020-07-01T02:00:00.000Z</published>
+    <updated>2020-07-09T08:27:28.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;VBA格式的作弊码-XXXXXXXX-YYYY-转换为Code-Breaker-格式方法&quot;&gt;&lt;a href=&quot;#VBA格式的作弊码-XXXXXXXX-YYYY-转换为Code-Breaker-格式方法&quot; class=&quot;headerlink&quot; title=&quot;VBA格式的作弊码 XXXXXXXX:YYYY 转换为Code Breaker 格式方法&quot;&gt;&lt;/a&gt;VBA格式的作弊码 &lt;code&gt;XXXXXXXX:YYYY&lt;/code&gt; 转换为Code Breaker 格式方法&lt;/h2&gt;&lt;p&gt;第一位改为8 冒号换成空格&lt;br&gt;&lt;code&gt;XXXXXXXX:YY&lt;/code&gt; 冒号后面2位YY就补00~FF改为 &lt;code&gt;00YY&lt;/code&gt;  或者 &lt;code&gt;FFYY&lt;/code&gt; 的格式&lt;br&gt;转为Code Breaker格式就是 &lt;code&gt;8XXXXXXX YYYY&lt;/code&gt;&lt;br&gt;PS: 在大地图上操作比较方便&lt;/p&gt;
+&lt;h2 id=&quot;角色道具代码示例&quot;&gt;&lt;a href=&quot;#角色道具代码示例&quot; class=&quot;headerlink&quot; title=&quot;角色道具代码示例&quot;&gt;&lt;/a&gt;角色道具代码示例&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;给第一个角色道具 FF道具耐久256 04银剑&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8202BE66 FF04&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;给(1,2)角色道具 FF道具耐久256 01铁剑&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8202BEAF FF01&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;给1排3列角色道具栏1 无限使用的 波布罗的护符&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8202BEF7 FF7C&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;给1排3列角色道具栏2 无限使用的 菲力的护符（不推荐多栏修改可能影响第一栏道具&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8202BEF8 FF71&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="游戏" scheme="https://miloweimo.github.io/article/categories/%E6%B8%B8%E6%88%8F/"/>
+    
+    
+    <category term="gba" scheme="https://miloweimo.github.io/article/tags/gba/"/>
+    
+    <category term="火焰之纹章" scheme="https://miloweimo.github.io/article/tags/%E7%81%AB%E7%84%B0%E4%B9%8B%E7%BA%B9%E7%AB%A0/"/>
+    
+    <category term="复古游戏" scheme="https://miloweimo.github.io/article/tags/%E5%A4%8D%E5%8F%A4%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
