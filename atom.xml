@@ -60,11 +60,17 @@
     <category term="技术" scheme="https://miloweimo.github.io/article/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
+    <category term="配置" scheme="https://miloweimo.github.io/article/tags/%E9%85%8D%E7%BD%AE/"/>
+    
     <category term="linux" scheme="https://miloweimo.github.io/article/tags/linux/"/>
     
     <category term="kitty终端" scheme="https://miloweimo.github.io/article/tags/kitty%E7%BB%88%E7%AB%AF/"/>
     
-    <category term="#mac" scheme="https://miloweimo.github.io/article/tags/mac/"/>
+    <category term="mac" scheme="https://miloweimo.github.io/article/tags/mac/"/>
+    
+    <category term="tool" scheme="https://miloweimo.github.io/article/tags/tool/"/>
+    
+    <category term="窗口管理" scheme="https://miloweimo.github.io/article/tags/%E7%AA%97%E5%8F%A3%E7%AE%A1%E7%90%86/"/>
     
   </entry>
   
@@ -407,9 +413,9 @@
     
     <category term="windows" scheme="https://miloweimo.github.io/article/tags/windows/"/>
     
-    <category term="office" scheme="https://miloweimo.github.io/article/tags/office/"/>
-    
     <category term="mac" scheme="https://miloweimo.github.io/article/tags/mac/"/>
+    
+    <category term="office" scheme="https://miloweimo.github.io/article/tags/office/"/>
     
   </entry>
   
@@ -731,9 +737,9 @@
     <category term="技术" scheme="https://miloweimo.github.io/article/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="git" scheme="https://miloweimo.github.io/article/tags/git/"/>
-    
     <category term="js" scheme="https://miloweimo.github.io/article/tags/js/"/>
+    
+    <category term="git" scheme="https://miloweimo.github.io/article/tags/git/"/>
     
     <category term="vue" scheme="https://miloweimo.github.io/article/tags/vue/"/>
     
