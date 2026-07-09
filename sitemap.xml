@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://miloweimo.github.io/article/kitty%E7%BB%88%E7%AB%AF/</loc>
+    
+    <lastmod>2026-07-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://miloweimo.github.io/article/ZeroOmegaInit/</loc>
     
     <lastmod>2026-07-06</lastmod>
@@ -733,7 +742,7 @@
 
   <url>
     <loc>https://miloweimo.github.io/article/</loc>
-    <lastmod>2026-07-08</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -743,28 +752,28 @@
   
   <url>
     <loc>https://miloweimo.github.io/article/categories/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2026-07-08</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://miloweimo.github.io/article/categories/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2026-07-08</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://miloweimo.github.io/article/categories/%E6%B8%B8%E6%88%8F/</loc>
-    <lastmod>2026-07-08</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://miloweimo.github.io/article/categories/%E7%94%9F%E6%B4%BB/%E9%A5%AE%E9%A3%9F/</loc>
-    <lastmod>2026-07-08</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

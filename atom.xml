@@ -38,6 +38,37 @@
   </entry>
   
   <entry>
+    <title>kitty终端</title>
+    <link href="https://miloweimo.github.io/article/kitty%E7%BB%88%E7%AB%AF/"/>
+    <id>https://miloweimo.github.io/article/kitty%E7%BB%88%E7%AB%AF/</id>
+    <published>2026-07-09T06:06:14.000Z</published>
+    <updated>2026-07-09T06:06:14.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;Kitty&quot;&gt;&lt;a href=&quot;#Kitty&quot; class=&quot;headerlink&quot; title=&quot;Kitty&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://sw.kovidgoyal.net/kitty/&quot;&gt;Kitty&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;优势：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;性能好&lt;/li&gt;
+&lt;li&gt;GitHub开源 &lt;a href=&quot;https://github.com/kovidgoyal/kitty&quot;&gt;kovidgoyal&amp;#x2F;kitty&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;多平台，macOS和Linux &lt;a href=&quot;https://sw.kovidgoyal.net/kitty/binary/#&quot;&gt;安装文档&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;可以看图片 &lt;code&gt;kitten icat image.png&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;复制文本带换行（对比&lt;a href=&quot;https://ghostty.org/&quot;&gt;Ghostty&lt;/a&gt;的&lt;a href=&quot;https://github.com/ghostty-org/ghostty/discussions/12892&quot;&gt;discussions&lt;/a&gt;）&lt;/li&gt;
+&lt;li&gt;自动记住上次窗口大小&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="技术" scheme="https://miloweimo.github.io/article/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="linux" scheme="https://miloweimo.github.io/article/tags/linux/"/>
+    
+    <category term="kitty终端" scheme="https://miloweimo.github.io/article/tags/kitty%E7%BB%88%E7%AB%AF/"/>
+    
+    <category term="#mac" scheme="https://miloweimo.github.io/article/tags/mac/"/>
+    
+  </entry>
+  
+  <entry>
     <title>ZeroOmega初始化设置</title>
     <link href="https://miloweimo.github.io/article/ZeroOmegaInit/"/>
     <id>https://miloweimo.github.io/article/ZeroOmegaInit/</id>
