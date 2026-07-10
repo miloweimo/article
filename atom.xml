@@ -38,6 +38,39 @@
   </entry>
   
   <entry>
+    <title>Arch Linux软件源</title>
+    <link href="https://miloweimo.github.io/article/archlinux_mirror_list/"/>
+    <id>https://miloweimo.github.io/article/archlinux_mirror_list/</id>
+    <published>2026-07-10T07:48:50.000Z</published>
+    <updated>2026-07-10T07:48:50.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;使用&lt;a href=&quot;https://xyne.dev/projects/reflector/&quot;&gt;reflector&lt;/a&gt;来管理[[pacman]]的软件源&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://xyne.dev/projects/reflector/&quot;&gt;Reflector&lt;/a&gt; 是一个 Python 脚本；它可以从 &lt;a href=&quot;https://archlinux.org/mirrors/status/&quot;&gt;Arch Linux Mirror Status&lt;/a&gt; 页面获取最新的镜像列表，然后筛选出最新的镜像并按速度排序，最后将结果写入到 &lt;code&gt;/etc/pacman.d/mirrorlist&lt;/code&gt; 文件。&lt;/p&gt;
+&lt;p&gt;安装&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo pacman -S reflector&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;使用最新5个国内镜像，按速度排序覆盖mirrorlist文件&lt;/p&gt;
+&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;sudo&lt;/span&gt; reflector -c China --protocol https --latest 5 --&lt;span class=&quot;built_in&quot;&gt;sort&lt;/span&gt; rate --save /etc/pacman.d/mirrorlist&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="技术" scheme="https://miloweimo.github.io/article/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="linux" scheme="https://miloweimo.github.io/article/tags/linux/"/>
+    
+    <category term="archlinux" scheme="https://miloweimo.github.io/article/tags/archlinux/"/>
+    
+    <category term="pacman" scheme="https://miloweimo.github.io/article/tags/pacman/"/>
+    
+    <category term="mirrorlist" scheme="https://miloweimo.github.io/article/tags/mirrorlist/"/>
+    
+    <category term="镜像" scheme="https://miloweimo.github.io/article/tags/%E9%95%9C%E5%83%8F/"/>
+    
+  </entry>
+  
+  <entry>
     <title>kitty终端</title>
     <link href="https://miloweimo.github.io/article/kitty%E7%BB%88%E7%AB%AF/"/>
     <id>https://miloweimo.github.io/article/kitty%E7%BB%88%E7%AB%AF/</id>
@@ -253,6 +286,8 @@
     <category term="技术" scheme="https://miloweimo.github.io/article/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
+    <category term="archlinux" scheme="https://miloweimo.github.io/article/tags/archlinux/"/>
+    
     <category term="多系统" scheme="https://miloweimo.github.io/article/tags/%E5%A4%9A%E7%B3%BB%E7%BB%9F/"/>
     
     <category term="双系统" scheme="https://miloweimo.github.io/article/tags/%E5%8F%8C%E7%B3%BB%E7%BB%9F/"/>
@@ -262,8 +297,6 @@
     <category term="启动配置" scheme="https://miloweimo.github.io/article/tags/%E5%90%AF%E5%8A%A8%E9%85%8D%E7%BD%AE/"/>
     
     <category term="bios" scheme="https://miloweimo.github.io/article/tags/bios/"/>
-    
-    <category term="archlinux" scheme="https://miloweimo.github.io/article/tags/archlinux/"/>
     
     <category term="windows" scheme="https://miloweimo.github.io/article/tags/windows/"/>
     
@@ -521,11 +554,11 @@
     <category term="技术" scheme="https://miloweimo.github.io/article/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
+    <category term="linux" scheme="https://miloweimo.github.io/article/tags/linux/"/>
+    
     <category term="windows" scheme="https://miloweimo.github.io/article/tags/windows/"/>
     
     <category term="ubuntu" scheme="https://miloweimo.github.io/article/tags/ubuntu/"/>
-    
-    <category term="linux" scheme="https://miloweimo.github.io/article/tags/linux/"/>
     
     <category term="mac" scheme="https://miloweimo.github.io/article/tags/mac/"/>
     
