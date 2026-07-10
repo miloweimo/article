@@ -42,18 +42,20 @@
     <link href="https://miloweimo.github.io/article/kitty%E7%BB%88%E7%AB%AF/"/>
     <id>https://miloweimo.github.io/article/kitty%E7%BB%88%E7%AB%AF/</id>
     <published>2026-07-09T06:06:14.000Z</published>
-    <updated>2026-07-09T09:27:30.000Z</updated>
+    <updated>2026-07-10T03:33:40.000Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;Kitty终端&quot;&gt;&lt;a href=&quot;#Kitty终端&quot; class=&quot;headerlink&quot; title=&quot;Kitty终端&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://sw.kovidgoyal.net/kitty/&quot;&gt;Kitty&lt;/a&gt;终端&lt;/h2&gt;&lt;p&gt;优势：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;性能好&lt;/li&gt;
+&lt;li&gt;性能好，和&lt;a href=&quot;https://ghostty.org/&quot;&gt;Ghostty&lt;/a&gt;都是第一梯队&lt;/li&gt;
 &lt;li&gt;GitHub开源 &lt;a href=&quot;https://github.com/kovidgoyal/kitty&quot;&gt;kovidgoyal&amp;#x2F;kitty&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;多平台，macOS和Linux &lt;a href=&quot;https://sw.kovidgoyal.net/kitty/binary/#&quot;&gt;安装文档&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;多平台，macOS和Linux&lt;/li&gt;
+&lt;li&gt;主题比较多&lt;code&gt;kitten themes&lt;/code&gt;，目前用&lt;code&gt;One Half Dark&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;可以看图片 &lt;code&gt;kitten icat image.png&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;复制文本带换行（对比&lt;a href=&quot;https://ghostty.org/&quot;&gt;Ghostty&lt;/a&gt;的&lt;a href=&quot;https://github.com/ghostty-org/ghostty/discussions/12892&quot;&gt;discussions&lt;/a&gt;）&lt;/li&gt;
-&lt;li&gt;自动记住上次窗口大小&lt;/li&gt;
-&lt;/ul&gt;</summary>
+&lt;li&gt;自动记住上次窗口大小（Ghostty要配置）&lt;/li&gt;
+&lt;li&gt;复制文本带换行（Ghostty有时不行 相关&lt;a href=&quot;https://github.com/ghostty-org/ghostty/discussions/12892&quot;&gt;discussions&lt;/a&gt;）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/miloweimo/blogimage/main/mark-shot-20260710-112448.png&quot; alt=&quot;kitty_screenshot&quot;&gt;&lt;/p&gt;</summary>
     
     
     
