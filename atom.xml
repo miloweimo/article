@@ -67,6 +67,40 @@
   </entry>
   
   <entry>
+    <title>RBAC权限模型</title>
+    <link href="https://miloweimo.github.io/article/RBAC%E6%9D%83%E9%99%90%E6%A8%A1%E5%9E%8B/"/>
+    <id>https://miloweimo.github.io/article/RBAC%E6%9D%83%E9%99%90%E6%A8%A1%E5%9E%8B/</id>
+    <published>2026-07-12T07:59:05.000Z</published>
+    <updated>2026-07-12T07:59:05.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;RBAC（Role-Based Access Control，&lt;strong&gt;基于角色的访问控制&lt;/strong&gt;）是目前企业系统最主流的权限模型，也是绝大多数后台管理系统（OA、ERP、CRM、MES、IAM、Kubernetes、Linux sudo 等）的基础。&lt;/p&gt;
+&lt;p&gt;相比直接给用户分配权限，RBAC引入了一个&lt;strong&gt;角色（Role）&lt;/strong&gt;作为中间层：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;用户 → 角色 → 权限&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这样权限管理会简单很多。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术" scheme="https://miloweimo.github.io/article/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="权限" scheme="https://miloweimo.github.io/article/tags/%E6%9D%83%E9%99%90/"/>
+    
+    <category term="RBAC" scheme="https://miloweimo.github.io/article/tags/RBAC/"/>
+    
+    <category term="转载" scheme="https://miloweimo.github.io/article/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+    <category term="后台管理" scheme="https://miloweimo.github.io/article/tags/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86/"/>
+    
+    <category term="角色" scheme="https://miloweimo.github.io/article/tags/%E8%A7%92%E8%89%B2/"/>
+    
+    <category term="数据库" scheme="https://miloweimo.github.io/article/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Arch Linux软件源</title>
     <link href="https://miloweimo.github.io/article/archlinux_mirror_list/"/>
     <id>https://miloweimo.github.io/article/archlinux_mirror_list/</id>
@@ -587,9 +621,9 @@
     
     <category term="windows" scheme="https://miloweimo.github.io/article/tags/windows/"/>
     
-    <category term="mac" scheme="https://miloweimo.github.io/article/tags/mac/"/>
-    
     <category term="ubuntu" scheme="https://miloweimo.github.io/article/tags/ubuntu/"/>
+    
+    <category term="mac" scheme="https://miloweimo.github.io/article/tags/mac/"/>
     
   </entry>
   
